@@ -57,14 +57,6 @@ open FaceCam.app
 | Sakrij / prikaži | Izbornik → Sakrij kameru / Prikaži kameru |
 | Izlaz | Izbornik → Izlaz (⌘Q) |
 
-## Rješavanje problema
-
-**Nema slike s kamere / dozvola odbijena.** Uključi FaceCam u Postavke sustava → Privatnost i sigurnost → Kamera. Za ponovni prikaz upita za dozvolu:
-
-```bash
-tccutil reset Camera com.mateo.facecam
-```
-
 **Aplikacije nema u Docku.** To je namjerno. Potraži ikonu kamere u menu baru.
 
 ## Struktura projekta
